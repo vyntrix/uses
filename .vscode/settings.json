@@ -29,7 +29,7 @@
     "chat.commandCenter.enabled": false,
     "workbench.layoutControl.enabled": false,
     "window.menuBarVisibility": "hidden",
-    "window.title": "${dirty}${rootName}${separator}${activeEditorShort}",
+    "window.title": "${dirty}${rootNameShort}${separator}${activeEditorShort}",
     // #endregion
 
     // #region Silence the Noise
@@ -101,6 +101,15 @@
         "file:///C:/VSCode/custom.css",
         "file:///C:/VSCode/custom.js"
     ],
-    "editor.guides.indentation": false
+    // #endregion
+
+    // #region Extensions
+    "editor.guides.indentation": false,
+    "sherlock.userId": "0ae27a57-b2be-495b-89a1-99f484e4b20e",
+    "svelte.enable-ts-plugin": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
     // #endregion
 }
