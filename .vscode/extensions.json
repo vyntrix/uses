@@ -1,0 +1,18 @@
+{
+    "recommendations": [
+        "svelte.svelte-vscode",
+        "Catppuccin.catppuccin-vsc",
+        "Catppuccin.catppuccin-vsc-icons",
+        "be5invis.vscode-custom-css",
+        "usernamehw.errorlens",
+        "mrmlnc.vscode-duplicate",
+        "dbaeumer.vscode-eslint",
+        "GitHub.vscode-pull-request-github",
+        "eamodio.gitlens",
+        "lokalise.i18n-ally",
+        "antfu.iconify",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+        "antfu.unocss"
+    ]
+}
