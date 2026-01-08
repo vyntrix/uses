@@ -1,116 +1,135 @@
 {
-    "window.zoomLevel": 2,
+  "window.zoomLevel": 2,
 
-    // #region Better Defaults
-    "editor.copyWithSyntaxHighlighting": false,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "editor.emptySelectionClipboard": false,
-    "workbench.editor.enablePreview": false,
-    "window.newWindowDimensions": "inherit",
-    "editor.multiCursorModifier": "ctrlCmd",
-    "files.trimTrailingWhitespace": true,
-    "diffEditor.renderSideBySide": false,
-    "editor.snippetSuggestions": "top",
-    "editor.detectIndentation": false,
-    "files.insertFinalNewline": true,
-    "window.nativeFullScreen": false,
-    "files.trimFinalNewlines": true,
-    // #endregion
+  // #region Better Defaults
+  "editor.copyWithSyntaxHighlighting": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.emptySelectionClipboard": false,
+  "workbench.editor.enablePreview": false,
+  "window.newWindowDimensions": "inherit",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "files.trimTrailingWhitespace": true,
+  "diffEditor.renderSideBySide": false,
+  "editor.snippetSuggestions": "top",
+  "editor.detectIndentation": false,
+  "files.insertFinalNewline": true,
+  "window.nativeFullScreen": false,
+  "files.trimFinalNewlines": true,
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  // #endregion
 
-    // #region Hide Everything
-    "workbench.activityBar.location": "hidden",
-    "workbench.sideBar.location": "right",
-    "workbench.statusBar.visible": false,
-    "workbench.editor.showTabs": "none",
-    "workbench.tree.renderIndentGuides": "none",
-    "editor.minimap.enabled": false,
-    "editor.lineNumbers": "off",
-    "window.commandCenter": false,
-    "chat.commandCenter.enabled": false,
-    "workbench.layoutControl.enabled": false,
-    "window.menuBarVisibility": "hidden",
-    "window.title": "${dirty}${rootNameShort}${separator}${activeEditorShort}",
-    // #endregion
+  // #region Hide Everything
+  "workbench.activityBar.location": "hidden",
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": false,
+  "workbench.editor.showTabs": "none",
+  "workbench.tree.renderIndentGuides": "none",
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "off",
+  "window.commandCenter": false,
+  "chat.commandCenter.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "window.menuBarVisibility": "hidden",
+  "window.title": "${dirty}${rootNameShort}${separator}${activeEditorShort}",
+  // #endregion
 
-    // #region Silence the Noise
-    "breadcrumbs.enabled": false,
-    "scm.diffDecorations": "none",
-    "editor.hover.enabled": "onKeyboardModifier",
-    "editor.matchBrackets": "never",
-    "workbench.tips.enabled": false,
-    "editor.colorDecorators": true,
-    "git.decorations.enabled": false,
-    "workbench.startupEditor": "none",
-    "editor.lightbulb.enabled": "off",
-    "editor.selectionHighlight": false,
-    "editor.overviewRulerBorder": false,
-    "editor.renderLineHighlight": "none",
-    "editor.occurrencesHighlight": "off",
-    "problems.decorations.enabled": false,
-    "editor.renderControlCharacters": false,
-    "editor.hideCursorInOverviewRuler": true,
-    "editor.gotoLocation.multipleReferences": "goto",
-    "editor.gotoLocation.multipleDefinitions": "goto",
-    "editor.gotoLocation.multipleDeclarations": "goto",
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "editor.gotoLocation.multipleImplementations": "goto",
-    "editor.gotoLocation.multipleTypeDefinitions": "goto",
-    "editor.stickyScroll.enabled": false,
-    // #endregion
+  // #region Silence the Noise
+  "breadcrumbs.enabled": false,
+  "scm.diffDecorations": "none",
+  "editor.hover.enabled": "onKeyboardModifier",
+  "editor.matchBrackets": "never",
+  "workbench.tips.enabled": false,
+  "editor.colorDecorators": true,
+  "git.decorations.enabled": false,
+  "workbench.startupEditor": "none",
+  "editor.lightbulb.enabled": "off",
+  "editor.selectionHighlight": false,
+  "editor.overviewRulerBorder": false,
+  "editor.renderLineHighlight": "none",
+  "editor.occurrencesHighlight": "off",
+  "problems.decorations.enabled": false,
+  "editor.renderControlCharacters": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "editor.stickyScroll.enabled": false,
+  // #endregion
 
-    // #region Typography
-    "workbench.colorTheme": "Catppuccin Mocha",
-    "editor.fontFamily": "Dank Mono",
-    "editor.fontSize": 15,
-    "editor.lineHeight": 0,
-    "editor.suggestFontSize": 16,
-    "editor.suggestLineHeight": 28,
-    "terminal.integrated.fontSize": 14,
-    "terminal.integrated.lineHeight": 1.5,
-    "editor.cursorBlinking": "solid",
-    "editor.cursorStyle": "block",
-    "editor.scrollbar.horizontalScrollbarSize": 8,
-    "editor.scrollbar.verticalScrollbarSize": 8,
-    // #endregion
+  // #region Typography
+  "workbench.colorTheme": "Night Owl",
+  "editor.fontFamily": "Dank Mono",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 0,
+  "editor.suggestFontSize": 16,
+  "editor.suggestLineHeight": 28,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1.5,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "block",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.scrollbar.horizontalScrollbarSize": 8,
+  "editor.scrollbar.verticalScrollbarSize": 8,
+  // #endregion
 
-    // #region Find
-    "search.useIgnoreFiles": false,
-    "search.exclude": {
-        "**/node_modules": true,
-        "**/bower_components": true,
-        "**/*.code-search": true,
-        "**/node-ignore": true,
-        "**/dist": true,
-        "**/composer.lock": true,
-        "**/package-lock.json": true,
-        "storage": true,
-    },
-    "search.quickOpen.includeHistory": false,
-    // #endregion
+  // #region Find
+  "search.useIgnoreFiles": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/node-ignore": true,
+    "**/dist": true,
+    "**/composer.lock": true,
+    "**/package-lock.json": true,
+    "storage": true,
+    "**/.svelte-kit": true
+  },
+  "search.quickOpen.includeHistory": false,
+  // #endregion
 
-    // #region Code
-    "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
-    "emmet.includeLanguages": {
-        "vue-html": "html",
-        "vue": "html"
-    },
-    // #endregion
+  // #region Code
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "editor.wordWrap": "on",
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+  // #endregion
 
-    // #region Custom CSS
-    "vscode_custom_css.imports": [
-        "file:///C:/VSCode/custom.css",
-        "file:///C:/VSCode/custom.js"
-    ],
-    // #endregion
+  // #region Custom CSS
+  "vscode_custom_css.imports": [
+    "file:///C:/VSCode/custom.css",
+    "file:///C:/VSCode/custom.js"
+  ],
+  // #endregion
 
-    // #region Extensions
-    "editor.guides.indentation": false,
-    "sherlock.userId": "0ae27a57-b2be-495b-89a1-99f484e4b20e",
-    "svelte.enable-ts-plugin": true,
-    "git.enableSmartCommit": true,
-    "git.confirmSync": false,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-    "workbench.editor.editorActionsLocation": "hidden",
-    // #endregion
+  // #region Extensions
+  "editor.guides.indentation": false,
+  "sherlock.userId": "0ae27a57-b2be-495b-89a1-99f484e4b20e",
+  "svelte.enable-ts-plugin": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "gitlens.codeLens.enabled": false,
+  // #endregion
+
+  // #region Godot
+  "godotTools.editorPath.godot4": "D:\\Gamedev\\Engine\\Godot_v4.6-beta3_mono_win64.exe",
+  "godotTools.lsp.serverPort": 6005,
+  "godotTools.inlayHints.gdresource": true,
+  "godotTools.inlayHints.gdscript": true,
+  // #endregion
+
+  // #region Git
+  "git.openRepositoryInParentFolders": "always",
+  "git.autofetch": true
+  // #endregion
 }
